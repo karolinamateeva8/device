@@ -11,5 +11,21 @@
     "ecosystem:cordova"
   ],
   "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-battery-status": "^2.0.3",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-network-information": "^3.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-network-information": {}
+    }
+  }
 }
